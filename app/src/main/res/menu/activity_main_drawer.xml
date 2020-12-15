@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/copyright"
+            android:title="@string/nav_credits" />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/aboutus"
+            android:title="@string/nav_aboutUs" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_abc"
+            android:title="@string/logout" />
+    </group>
+</menu>

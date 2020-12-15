@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abc.project11.Home_Activity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_background"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/txt_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/welcome"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_welcome"
+            android:layout_marginTop="10dp"
+            android:fontFamily="cursive"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:hint="@string/student_name"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_name"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:id="@+id/txt_select_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:layout_marginTop="10dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/select_year"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_select_year"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/sp_background"
+            android:entries="@array/sp"
+
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:spinnerMode="dropdown"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

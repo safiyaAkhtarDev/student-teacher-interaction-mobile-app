@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="20sp" />
+            <solid android:color="@color/edt_unfocused" />
+            <padding android:bottom="20sp" android:left="20sp" android:right="20sp" android:top="20sp" />
+        </shape>
+    </item>
+    <item android:state_focused="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="20sp" />
+            <solid android:color="@color/edt_focused" />
+            <padding android:bottom="20sp" android:left="20sp" android:right="20sp" android:top="20sp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/sem_odd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:background="@drawable/btn_background"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:hint="@string/sem_odd"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sem_even"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toEndOf="@id/sem_odd"
+            android:background="@drawable/btn_background"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:hint="@string/sem_even"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_background1"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_syllabus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/btn_background"
+            android:drawableStart="@drawable/syllabus"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="@string/syllabus"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_dept_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn_syllabus"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/btn_background"
+            android:drawableStart="@drawable/notices"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="@string/depart_notice"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_assignments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_dept_notice"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/btn_background"
+            android:drawableStart="@drawable/assignmets"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="@string/assignments"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_assignments"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/btn_background"
+            android:drawableStart="@drawable/notes"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="@string/notes"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_question_paper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_notes"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/btn_background"
+            android:drawableStart="@drawable/question_paper"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="@string/question"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>

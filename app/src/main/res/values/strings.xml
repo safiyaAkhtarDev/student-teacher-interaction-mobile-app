@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Imfundo App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="header">Student Faculty Interaction App</string>
+    <string name="login">Login</string>
+    <string name="registration_num">Enter Registration Number</string>
+    <string name="nav_registration_num">Registration Number</string>
+    <string name="password">Enter Password</string>
+    <string name="next">Next</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
+    <string name="welcome">Welcome</string>
+    <string name="student_name">Student Name</string>
+    <string name="answer2">Answer Second Question</string>
+    <string name="answer1">Answer First Question</string>
+    <string name="sem_even">Even Semester</string>
+    <string name="sem_odd">Odd Semester</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="depart_notice">Department Notice</string>
+    <string name="assignments">Assignments</string>
+    <string name="notes">Notes</string>
+    <string name="question">Question Papers</string>
+
+    <string-array name="ques1">
+        <item>Select A Question</item>
+        <item>What Was your Childhood Nickname?</item>
+        <item>What Was Your First School Name?</item>
+        <item>What Was The First Books Name You Read?</item>
+    </string-array>
+    <string-array name="ques2">
+        <item>Select A Question</item>
+        <item>Where Did Your Parent Meet?</item>
+        <item>When Did You Complete Your School?</item>
+        <item>Where ?</item>
+    </string-array>
+    <string-array name="sp">
+        <item>Select Year</item>
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Forth Year</item>
+    </string-array>
+
+    <string name="nav_credits">Credits</string>
+    <string name="nav_aboutUs">About Us</string>
+    <string name="select_year"><u>Select</u> <u>Year</u></string>
+    <string name="logout"><b><u>Logout</u></b></string>
+    <string name="sohil"><b>Sohil Ahmed</b></string>
+    <string name="safiya"><b>Safiya Akhtar</b></string>
+    <string name="back">Go Back</string>
+    <string name="CDAC">CDAC\nJaipur</string>
+    <string name="poornima">Poornima University\nJaipur</string>
+    <string name="nav_general_notice">General Notice</string>
+    <string name="sohil_image">Sohil Image</string>
+    <string name="safiya_image">Safiya Image</string>
+
+    <string name="forgot">Forgot Password</string>
+    <string name="set_pass">Set Password</string>
+
+</resources>
